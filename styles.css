@@ -1,0 +1,155 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ff8cee;
+  font-family:sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18pc;
+  height: 700px;
+  background-color: #ff89c9;
+  border-right: 2px solid grey;
+  resize: both;
+  overflow: auto;
+  scroll-behavior: smooth;
+  cursor: move;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 800;
+  background-color: #ec0a83;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#main-doc {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  padding: 20px;
+  background-color: #ffd0e9;
+}
+
+fieldset {
+   
+   
+  border:1px solid grey;
+  border-radius:20px;
+  background-color: #ffff;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+}
+
+#main-doc .green {
+  color: green;
+}
+
+#main-doc .red {
+  color: red;
+}
+
+
+.w3-note{
+  background-color: #ffffcc;
+}
+
+.box{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+table{
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+
+  
+}
+
+ td{
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+ }
+
+ table td{
+  padding: 8px 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+ }
+
+ *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+ 
+
+code {
+  background-color: #e8e8e8;
+  padding: 1px 2px;
+  font-size:17px;
+  
+   
+  overflow: auto;
+}
+
+@media (max-width: 600px) {
+  nav {
+      text-align: center;
+  }
+
+  .nav-link {
+      display: block;
+      margin: 5px 0;
+  }
+
+  .main-section {
+      padding: 10px;
+      margin: 5px 0;
+  }
+}
