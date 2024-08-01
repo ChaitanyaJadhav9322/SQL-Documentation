@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -67,22 +67,16 @@
                 <h2>Examples</h2>
                 <p>Examples in Each Chapter With our online SQL editor, you can edit the SQL statements, and click on a button to view the result.</p>
                 <fieldset>
-                    <code>
-                        SELECT
-                <code>
-                <code>
-                        * FROM
-                </code>
-                <code>
-                         Customers;
-                </code> 
+                    <p><code>
+                            SELECT</code>
+                        <code>
+                            * FROM
+                        </code> Customers;
+                    </p>
                 </fieldset>
-                     
-             </article>
+            </article>
         </section>
         <br><br>
-
-
         <section id="SQL_Introduction" class="main-section">
             <header>
               SQL Introduction
@@ -90,12 +84,11 @@
             <article>
                 <p>SQL is a standard language for accessing and manipulating databases.</p>
                 <h2>What is SQL?</h2>
-                <ul>
+                <section>
+
                     <li>SQL stands for Structured Query Language</li>
                     <li>SQL. lets you access and manipulate databases </li>
                     <li>SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987</li>
-                </ul>
-                    
 
                     <h2>What Can SQL do?</h2>
                     <ul>
@@ -126,7 +119,7 @@
                     </ul>
 
                     <h2> RDBMS</h2>
-                 
+                    <article>
                         <p>
                             RDBMS stands for Relational Database Management System.
                             RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
@@ -135,33 +128,32 @@
                         </p>
                         <h2>Example</h2>
                         <fieldset>
- 
-                                <code>SELECT</code>
+                            <p>
+
                                 <code>* FROM</code> Customers;
-                             
+                            </p>
 
                         </fieldset>
-            </article>
-        </section>
-        <br><br>
 
+                    </article>
+                </section>
+                <br><br>
+                <section id="SQL_Syntax" class="main-section">
+                    <header>
+                      SQL Syntax
+                    </header>
+                    <article>
+                        <h2>SQL Statements</h2>
+                        <p>Most of the actions you need to perform on a database are done with SQL statements.
 
-        <section id="SQL_Syntax" class="main-section">
-            <header>
-                SQL Syntax
-            </header>
-             <article>
-                <h2>SQL Statements</h2>
-                <p>Most of the actions you need to perform on a database are done with SQL statements.
+                            SQL statements consists of keywords that are easy to understand.
 
-                 SQL statements consists of keywords that are easy to understand.
-
-                The following SQL statement returns all records from a table named "Customers": </p>
+                            The following SQL statement returns all records from a table named "Customers": </p>
                         <h2>Examples</h2>
                         <p>Select all records from the Customers table:</p>
                         <fieldset>
 
-                             <code>SELECT </code> <code>* FROM</code> Customers; 
+                            <p><code>SELECT </code> <code>* FROM</code> Customers;</p>
                         </fieldset>
                         <h1>Some of The Most Important SQL Commands</h1>
                         <ul>
@@ -191,8 +183,8 @@
                         <p>The SELECT statement is used to select data from a database.</p>
                         <h2>Syntax</h2>
                         <fieldset>
-                             <code>SELECT</code> <code>column1, column2, ...</code>
-                                FROM table_name; 
+                            <p> <code>SELECT</code> <code>column1, column2, ...</code>
+                                FROM table_name;</p>
                         </fieldset>
                         <p>Here, column1, column2, ... are the field names of the table you want to select data from.
 
@@ -232,15 +224,15 @@
                         <h2>ExampleGet your own SQL Server</h2>
                         <p>Select all customers from Mexico:</p>
                         <fieldset>
-                              <code>SELECT</code><code>* FROM </code>Customers
+                            <p> <code>SELECT</code><code>* FROM </code>Customers
                                 <code>WHERE </code>Country='Mexico';
-                            
+                            </p>
                         </fieldset>
                         <h2>Example</h2>
                         <fieldset>
-                            <code>SELECT</code><code>column1, column2, ...</code> <code>FROM</code> table_name
+                            <p><code>SELECT</code><code>column1, column2, ...</code> <code>FROM</code> table_name
                                 <code> WHERE</code> condition;
-                            
+                            </p>
                         </fieldset>
                     </article>
                 </section>
@@ -260,10 +252,10 @@
 
                     <h2>Syntax</h2>
                     <fieldset>
-                         <code>SELECT column1, column2, ...</code>
+                        <p><code>SELECT column1, column2, ...</code>
                             <code>FROM</code> table_name
                             <code>ORDER </code> <code>BY </code><code>column1, column2, ... ASC|DESC;</code>
-                        
+                        </p>
                     </fieldset>
                 </section>
                 <br><br>
@@ -285,10 +277,10 @@
 
                     <p>Syntax</p>
                     <fieldset>
-                        <code>SELECT column1, column2, ...</code>
+                        <p><code>SELECT column1, column2, ...</code>
                             <code> FROM </code> table_name
                             <code>WHERE condition1 AND condition2 AND condition3 ...;</code>
-                        
+                        </p>
                     </fieldset>
                 </section>
                 <br><br>
@@ -303,7 +295,7 @@
                         <h2>Example</h2>
                         <p>Select all customers from Germany or Spain:</p>
                         <fieldset>
-                            <code>SELECT *</code> <code>FROM Customers</code><code>WHERE Country = 'Germany' OR Country = 'Spain';</code> 
+                            <p><code>SELECT *</code> <code>FROM Customers</code><code>WHERE Country = 'Germany' OR Country = 'Spain';</code></p>
 
                         </fieldset>
                     </article>
