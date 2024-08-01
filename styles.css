@@ -1,7 +1,7 @@
 html,
 body {
   min-width: 290px;
-  color: #4d4e53;
+  color:white;
   background-color: #ff8cee;
   font-family:sans-serif;
   line-height: 1.5;
@@ -19,6 +19,7 @@ body {
   overflow: auto;
   scroll-behavior: smooth;
   cursor: move;
+  border-bottom:2px solid black;
 }
 
 header {
